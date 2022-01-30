@@ -1,0 +1,210 @@
+@font-face {
+  font-family: customFontBav;
+  src: url(fonts/Balivia.ttf);
+}
+@font-face {
+  font-family: customFontCoco;
+  src: url(fonts/Cocogoose\ Pro\ Semilight-trial.ttf);
+}
+@font-face {
+  font-family: customFontCool;
+  src: url(fonts/coolvetica\ rg.otf);
+}
+
+@font-face {
+  font-family: customFontCoolItal;
+  src: url(fonts/coolvetica\ rg\ it.otf);
+}
+
+* {
+  font-family: customFontCoco;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  padding:0px;
+  margin:0px;
+}
+
+.hero,
+.header,
+.footer {
+  background-color: #1f2937;
+}
+
+.hero,
+.box-one,
+.box-two,
+.box-three,
+.header,
+.footer {
+  display: flex;
+  padding-left: 256px;
+  padding-right: 256px;
+}
+
+.hero,
+.box-one,
+.box-two,
+.box-three {
+
+}
+
+.header {
+  display: flex;
+  padding-top: 24px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-logo {
+  font-family: customFontBav;
+  font-size: 60px;
+  color:#e2dcdc;
+  text-shadow: 2px 2px 2px rgb(61, 61, 61);
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  gap: 12px;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+
+.hero-header{
+  font-size: 36px;
+  color:#f9faf8;
+}
+
+.left-part {
+  padding:24px;
+  max-width:600px;
+  height: 200px;
+}
+.big-img {
+  border-radius: 20px;
+}
+
+.box-one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 100px;
+  padding-top:20px;
+}
+
+.box-box {
+  display: flex;
+  align-items: center;
+  gap: 42px;
+}
+
+.smaller-img {
+  border-radius: 10px;
+  margin-bottom: 10px;
+  box-shadow: 4px 4px 4px #4569e2;
+}
+
+.img-box {
+  height: 200px;
+  width: 120px;
+}
+
+.img-text {
+  text-align: center;
+  height: 48px;
+}
+
+.box-two {
+  height: 400px;
+  background-color: #e5e7eb;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.testimonial-text {
+  
+  font-size: 30px;
+  font-family: customFontCoolItal;
+  color:#1f2937;
+}
+
+.box-three{
+  padding: 100px;
+  justify-content: center;
+}
+
+.sign-up-box {
+  display:flex;
+  gap: 36px;
+  background-color: #3882f6;
+  flex: 1;
+  max-width: 800px;
+  padding: 48px;
+  padding-left: 60px;
+  padding-right: 60px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 3px 3px 10px #1f2937;
+}
+
+.footer {
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  gap: 38px;
+}
+
+h1 {
+  margin: 0px;
+  padding: 0px;
+}
+
+.text,
+a,
+li {
+  text-decoration: none;
+  font-size: 18px;
+  color: #f9faf8;
+}
+
+.sign-up-button {
+  display:inline-block;
+  color:white;
+  background-color: #3882f6;
+  border-radius: 12px;
+  padding: 6px;
+  text-align: center;
+  width: 80px;
+  border: 1px solid white;
+}
+
+p {
+  color:#f9faf8;
+}
+
+.name-text {
+  align-self: flex-;
+  font-size: 24px;
+  color:#1f2937;
+}
