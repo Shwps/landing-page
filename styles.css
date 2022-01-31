@@ -115,8 +115,8 @@ ul {
 }
 
 .img-box {
-  height: 200px;
-  width: 120px;
+  height: auto;
+  width: 180px;
 }
 
 .img-text {
